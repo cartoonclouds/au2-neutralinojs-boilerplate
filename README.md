@@ -43,14 +43,14 @@ To run the application you must build it first:
 ```sh
 npm run build
 ```
-(Running `neu build` will **not** successfully build the application! You must use the command above to correctly build and package the assets using [gulp.js](https://gulpjs.com/)/[dumberjs](https://dumber.js.org/) as well as move all the distribution files into their correct locations.)
+Running `neu build` will **not** successfully build the application! You must use the command above to correctly build and package the assets using [gulp.js](https://gulpjs.com/)/[dumberjs](https://dumber.js.org/) as well as move all the distribution files into their correct locations.
 
 then
 ```sh
 neu run
 ```
 
-### Configuration
+### ConfigurationW
 Neutralino configuration is done in the `neutralino.config.json` file.
 
 The following settings must be left as-is in order for Neutralino, gulp.js and dumber.js to work correctly together. **Do not change** unless you know what you're doing! This includes their locations as well as the location of the Neutralinojs JavaScript library (file `neutralino.js`)
