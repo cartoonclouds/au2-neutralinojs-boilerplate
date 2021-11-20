@@ -13,7 +13,9 @@ This is using **Aurelia v2** , which is still in alpha stage!
  
 You can find documentation for this version [here](https://docs.aurelia.io/)
  
-Note that compatibility may be an issue if you intend on supporting older versions of Windows. There was discussion regarding the use of the IE engine (MSHTML) versus Edge/Chromium (WebView2) versus Microsoft Edge (EdgeHTML) to render the application. Quoting one of the developers
+**NOTE 2:*** 
+Compatibility may be an issue if you intend on supporting older versions of Windows. There is discussion regarding the use of the IE engine (MSHTML) versus Edge/Chromium (WebView2) versus Microsoft Edge (EdgeHTML) to render the application. Quote from one of the developers:
+
  > For Win32 [Windows] it's either MSHTML (aka IE), or EdgeHTML (since Windows 10), or Edge/Chromium .... I suggest to drop the support of MSHTML, since .... it does not match the expectations of a modern web developer.
 > 
 > .... For Windows that would mean using Edge/Chromium (if available), or falling back to EdgeHTML on Windows 10. On Windows 7 an error message should be displayed.
