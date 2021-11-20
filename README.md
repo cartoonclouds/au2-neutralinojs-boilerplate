@@ -21,7 +21,8 @@ Compatibility may be an issue if you intend on supporting older versions of Wind
 > .... For Windows that would mean using Edge/Chromium (if available), or falling back to EdgeHTML on Windows 10. On Windows 7 an error message should be displayed.
 > 
 > .... If at some point Edge/Chromium becomes the default in Windows 10 - we will drop the support of EdgeHTML.
-> [zserge](https://github.com/zserge) 2020, https://github.com/webview/webview/issues/305
+>
+> -[zserge](https://github.com/zserge) 2020, https://github.com/webview/webview/issues/305
 
 Using EDGE makes part of the [2021 roadmap](https://factsoverflow.com/neutralinojs-2021-roadmap/)
 
