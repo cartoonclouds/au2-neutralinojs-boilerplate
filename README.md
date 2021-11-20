@@ -4,7 +4,7 @@
   <img src="https://aurelia.io/styles/images/aurelia-icon.svg" width="150"/>
 </div>
 
-# au2-neutralinojs-template
+# au2-neutralinojs-boilerplate
 
 Template for getting started with the **[Neutralino.js](https://neutralino.js.org/)** and **[Aurelia2](https://aurelia.io)** framework to create portable desktop applications, packaged with **[dumberjs](https://dumber.js.org/)**
 
