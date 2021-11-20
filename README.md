@@ -8,20 +8,20 @@
 
 Template for getting started with the **[Neutralino.js](https://neutralino.js.org/)** and **[Aurelia2](https://aurelia.io)** framework to create portable desktop applications, packaged with **[dumberjs](https://dumber.js.org/)**
 
- >**NOTE:**
- >This is using **Aurelia v2** , which is still in alpha stage!
- >
- > You can find documentation for this version [here](https://docs.aurelia.io/)
- > 
- > Note that compatibility may be an issue if you intend on supporting older versions of Windows. There was discussion regarding the use of the IE engine (MSHTML) versus Edge/Chromium (WebView2) versus Microsoft Edge (EdgeHTML) to render the application. Quoting one of the developers
+**NOTE:**
+This is using **Aurelia v2** , which is still in alpha stage!
+ 
+You can find documentation for this version [here](https://docs.aurelia.io/)
+ 
+Note that compatibility may be an issue if you intend on supporting older versions of Windows. There was discussion regarding the use of the IE engine (MSHTML) versus Edge/Chromium (WebView2) versus Microsoft Edge (EdgeHTML) to render the application. Quoting one of the developers
  > For Win32 [Windows] it's either MSHTML (aka IE), or EdgeHTML (since Windows 10), or Edge/Chromium .... I suggest to drop the support of MSHTML, since .... it does not match the expectations of a modern web developer.
 > 
 > .... For Windows that would mean using Edge/Chromium (if available), or falling back to EdgeHTML on Windows 10. On Windows 7 an error message should be displayed.
 > 
 > .... If at some point Edge/Chromium becomes the default in Windows 10 - we will drop the support of EdgeHTML.
 > [zserge](https://github.com/zserge) 2020, https://github.com/webview/webview/issues/305
->
-> Using EDGE makes part of the [2021 roadmap](https://factsoverflow.com/neutralinojs-2021-roadmap/)
+
+Using EDGE makes part of the [2021 roadmap](https://factsoverflow.com/neutralinojs-2021-roadmap/)
 
 This repo is base off of [pmanu93/au-neutralino](https://github.com/pmanu93/au-neutralino). Thanks [pmanu93](https://github.com/pmanu93)!
 
