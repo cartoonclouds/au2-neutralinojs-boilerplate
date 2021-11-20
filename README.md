@@ -22,7 +22,7 @@ Template for getting started with the **[Neutralino.js](https://neutralino.js.or
 > [zserge](https://github.com/zserge) 2020, https://github.com/webview/webview/issues/305
 >
 > Using EDGE makes part of the [2021 roadmap](https://factsoverflow.com/neutralinojs-2021-roadmap/)
-This repo is base off of [pmanu93/au-neutralino](https://github.com/pmanu93/au-neutralino). Thanks pmanu93!
+This repo is base off of [pmanu93/au-neutralino](https://github.com/pmanu93/au-neutralino). Thanks [pmanu93](https://github.com/pmanu93)!
 
  
 ## Setup
